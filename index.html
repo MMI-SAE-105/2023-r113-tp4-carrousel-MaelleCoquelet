@@ -127,14 +127,14 @@
         aria-label="slide précedant"
         @click="parent=$refs.parent; parent.scrollLeft-=parent.clientWidth"
       >
-        &lt;
+      <strong>&lt;</strong>
       </button>
       <button
         class="carrousel_btn carrousel_btn-apres"
         aria-label="slide suivant"
         @click="p=$refs.parent; p.scrollLeft+=p.clientWidth"
       >
-        >
+       <strong>></strong> 
       </button>
       <div
         class="carrousel_parent-ecrans"
